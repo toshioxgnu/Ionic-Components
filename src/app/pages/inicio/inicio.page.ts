@@ -22,6 +22,11 @@ export class InicioPage implements OnInit {
     icon: 'contact',
     name: 'profile',
     redirectTo: '/avatar'
+   },
+   {
+    icon: 'grid',
+    name: 'buttons',
+    redirectTo: '/buttons'
    }
   ];
   constructor() { }
