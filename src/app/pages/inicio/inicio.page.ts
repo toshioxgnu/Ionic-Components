@@ -42,6 +42,11 @@ export class InicioPage implements OnInit {
     icon: 'calendar',
     name: 'DateTime',
     redirectTo: '/date-time'
+   },
+   {
+    icon: 'add-circle',
+    name: 'Floating Buttons',
+    redirectTo: '/fab'
    }
   ];
   constructor() { }
