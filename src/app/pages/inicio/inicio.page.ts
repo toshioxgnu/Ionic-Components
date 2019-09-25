@@ -47,6 +47,11 @@ export class InicioPage implements OnInit {
     icon: 'add-circle',
     name: 'Floating Buttons',
     redirectTo: '/fab'
+   },
+   {
+    icon: 'ios-grid',
+    name: 'Grid',
+    redirectTo: '/grid'
    }
   ];
   constructor() { }
