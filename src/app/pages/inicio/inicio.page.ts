@@ -67,6 +67,11 @@ export class InicioPage implements OnInit {
     icon: 'list',
     name: 'List',
     redirectTo: '/list'
+   },
+   {
+    icon: 'moon',
+    name: 'Dark Mode Toggle',
+    redirectTo: '/dark-mode'
    }
   ];
   constructor() { }

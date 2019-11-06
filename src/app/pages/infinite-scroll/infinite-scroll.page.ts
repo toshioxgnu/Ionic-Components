@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { TIMEOUT } from 'dns';
 import { IonInfiniteScroll } from '@ionic/angular';
 
 @Component({
@@ -18,7 +17,7 @@ export class InfiniteScrollPage implements OnInit {
   ngOnInit() {
   }
 
-  loadData(event){
+  loadData(event) {
     console.log('Cargando siguientes');
 
     setTimeout(() => {

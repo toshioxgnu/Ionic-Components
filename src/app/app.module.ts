@@ -17,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    ComponentsModule,BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule ],
+    ComponentsModule, BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule ],
   providers: [
     StatusBar,
     SplashScreen,

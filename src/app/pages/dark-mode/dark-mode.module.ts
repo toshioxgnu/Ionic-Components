@@ -5,13 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ListPage } from './list.page';
-import { ComponentsModule } from 'src/app/components/components.module';
+import { DarkModePage } from './dark-mode.page';
+import { ComponentsModule } from '../../components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: ListPage
+    component: DarkModePage
   }
 ];
 
@@ -23,6 +23,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentsModule
   ],
-  declarations: [ListPage]
+  declarations: [DarkModePage]
 })
-export class ListPageModule {}
+export class DarkModePageModule {}
