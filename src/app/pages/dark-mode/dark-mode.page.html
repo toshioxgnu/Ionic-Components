@@ -1,12 +1,21 @@
 <app-header titulo="Dark Mode Toggle"></app-header>
 
-
 <ion-content>
-   <ion-list>
+    <ion-list>
         <ion-item>
-            <ion-icon slot="start" name="moon"></ion-icon>
+            <ion-icon
+                slot="start"
+                name="moon"
+            ></ion-icon>
+
             <ion-label>Toggle Dark Mode</ion-label>
-            <ion-toggle slot="end" [ngModel]= "darkMode" [checked]="darkMode" (ionChange) = "cambio()"></ion-toggle>
+
+            <ion-toggle
+                slot="end"
+                [ngModel]="darkMode"
+                [checked]="darkMode"
+                (ionChange)="cambio()"
+            ></ion-toggle>
         </ion-item>
-   </ion-list>
+    </ion-list>
 </ion-content>
